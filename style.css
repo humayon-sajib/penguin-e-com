@@ -1,0 +1,46 @@
+.img-height img{
+    width: 500px;
+}
+.container-fluid img{
+    width: 500px;
+}
+.women-jacket img{
+    height: 400px;
+}
+.image-bg img{
+    background-color: lightgray;
+    
+}
+.footer-img img{
+    width: 800px;
+}
+@media only screen and (max-width: 576px) {
+    .navbar-brand img{
+        width: 280px;
+    }
+    .winter-penguin{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .banner-img{
+        width: 350px;
+        height: 350px;
+        margin-bottom: 70px;
+    }
+    .banner-img img{
+        width: 100%;
+    }
+    .shopping-area{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .shopping-area img{
+        width: 380px;
+        height: 600px;
+    }
+    .shoping-card img{
+        width: 364px;
+        height: 600px;
+    }
+}
